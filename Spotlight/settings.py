@@ -67,6 +67,7 @@ TEMPLATES = (
     },
 )
 
+TEMPLATE_DIRS = [os.path.join(PROJECT_ROOT, 'templates'),]
 WSGI_APPLICATION = 'Spotlight.wsgi.application'
 
 
