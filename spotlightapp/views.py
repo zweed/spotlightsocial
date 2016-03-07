@@ -22,4 +22,4 @@ def index(request):
 		'result': result
 		})
 
-    return HttpResponse(template.render(context))
+	return HttpResponse(template.render(context))
