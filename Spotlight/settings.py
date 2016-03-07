@@ -29,13 +29,13 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = (
+    'spotlightapp.apps.SpotlightappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'spotlightapp',
 )
 
 MIDDLEWARE_CLASSES = (
