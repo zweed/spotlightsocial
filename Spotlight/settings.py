@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Spotlight.urls'
 TEMPLATES = (
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_ROOT, 'templates'),],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,7 +68,6 @@ TEMPLATES = (
     },
 )
 
-TEMPLATE_DIRS = [os.path.join(PROJECT_ROOT, 'templates'),]
 WSGI_APPLICATION = 'Spotlight.wsgi.application'
 
 
