@@ -1,0 +1,1 @@
+web: gunicorn Spotlight.wsgi --log-file -
