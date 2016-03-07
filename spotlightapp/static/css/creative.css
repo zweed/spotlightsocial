@@ -12,6 +12,8 @@ body {
 
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    color: #fff;
+    background-color:#222;
 }
 
 hr {
@@ -58,7 +60,7 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #797979;
 }
 
 .text-faded {
@@ -149,7 +151,8 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: #222;
+        color: #fff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
